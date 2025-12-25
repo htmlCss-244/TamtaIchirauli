@@ -1,0 +1,38 @@
+table {
+    width: 45%;
+    height: 30%; ;
+    border-collapse: collapse;
+    background-color: #d4efef;
+    
+}
+th {
+    border: 2px solid rgb(221, 221, 221);
+    padding: 15px;
+    background-color: rgb(106, 204, 204);
+
+}
+td {
+    border: 2px solid rgb(221, 221, 221);
+    padding: 15px;
+    text-align: center;
+}
+
+img {
+    width: 800px;
+    height: 600px;
+    border: 15%;
+    border: 2px radius: 10px;
+}
+h2 {
+    text-align: left;
+    color: rgb(8, 72, 72);
+}
+h4 {
+    text-align: left;
+    color: rgb(8, 72, 72);
+    
+}
+h1 {
+    text-align: center;
+    color: rgb(8, 72, 72);
+}
