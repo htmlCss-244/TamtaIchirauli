@@ -1,0 +1,22 @@
+h1 {
+    color: #61219c;
+    font-size: 30;
+    text-align: center;
+
+}
+h2 {
+    color: darkred;
+    font-size: 25;
+    text-align: center;
+}
+li {
+    color: #0c0c72;
+    font-size: 15;
+    text-align: left;
+}
+img {
+    width: 800;
+    height: 400;
+}
+ul {
+    border: 1px solid;
