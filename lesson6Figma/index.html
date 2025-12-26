@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .figmaSized {
+          width: 960px;
+          height: 978px;
+        }
+        body {
+           display: flex;
+          justify-content: center;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+        }
+        nav a {
+            font-family: "Roboto", sans-serif;
+            font-size: 24px;
+            color: black;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 39px;
+            text-underline-offset: 4px;
+            text-decoration-thickness: 10px;
+         }
+         .merger {
+            display: flex;
+            justify-content: center;
+         }
+         #Bouldering {
+            font-size: 64px;
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            margin-top: 66px;
+            margin-bottom: 55px;
+         }
+         .imgAndlist {
+            display: flex;
+            justify-content: center;
+         }
+         .imglist {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            
+         }
+         #piclist {
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            margin: 0;
+         }
+        #desc {
+            font-size:  24px;
+            border-radius: 30px;
+            border: 1px solid black;
+            padding: 25px;
+            margin: 0;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .hightlight {
+            color: blue;
+            text-decoration: underline;
+        }
+        .contact-box {
+        width: 950px;
+        height: 128px;
+        border: 15px solid black;
+        background-color: black;
+       }
+       #email {
+        width: 930px ;
+        height: 40px;
+        font-family: "Roboto", sans-serif;
+        margin: 0px;
+        margin-top: 7px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        display: flex;
+       
+     }
+     #phone {
+        width: 930px;
+        height: 40px;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        margin-bottom: 7px;
+        border-radius: 3px;
+    
+     }
+
+
+    </style>
+</head>
+<body>
+    <div class="figmaSized">
+        <header>
+            <img src="./fotoebi/header.png" alt="">
+            <nav>
+                <a href="a">Shedule</a>
+                <a href="a">About the classes</a>
+                <a href="a">Club addresses</a>
+            </nav>
+        </header>
+        <main>
+            <div class="merger">
+                <p id="Bouldering">Bouldering</p>
+            </div>
+            <div class="imglist">
+                <div class="imgAndlist">
+                    <ul id="piclist">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <img src="fotoebi/image1.png" alt="image1">
+                </div>
+                 <div class="imgAndlist">
+                     <ul id="piclist">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <img src="fotoebi/image2.png" alt="image2">
+                </div>
+                 <div class="imgAndlist">
+                    <ul id="piclist">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <img src="fotoebi/image3.png" alt="image3">
+                </div>
+            </div>
+            <p id="desc"> Never been to a rock gym before? Hurry up and attempt your first climb! 
+                Our platforms have rooms of varying difficulties. The trainings are safe, new climbers are protected by automatic safeguards, 
+                and the rooms are staffed by instructors. For kids, we have special zones with fun attractions. We offer season tickets, 
+                discounts, and a system of individual lessons. Before you visit, please take the time to review the safety <span class="hightlight">rules.</span></p>
+        </main>
+        <footer>
+            <div class="contact-box">
+                <input type="email" placeholder="email" id="email">
+                <input type="phone" placeholder="phone" id="phone">
+            </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
