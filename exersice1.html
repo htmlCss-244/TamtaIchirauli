@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="notification-container"></div>
+    <button id="showBtn">Show Message</button>
+
+    <script>
+        const container = document.getElementById("notification-container");
+        const button = document.getElementById("showBtn");
+
+        button.addEventListener("click",
+            function() {
+                const messageDiv = document.createElement ("div"); // ახალი დივის შექმნა
+                
+                messageDiv.textContent = "ეს არის დინამიური შეტყობინება!"//  ტექსტი
+
+                messageDiv.classList.add("message"); //css კლასის დამატება
+
+                container.appendChild(messageDiv); //დივის ჩასმა კონტეინერში
+            }
+        )
+    </script>
+</body>
+</html>
