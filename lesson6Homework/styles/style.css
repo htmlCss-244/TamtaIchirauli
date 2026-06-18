@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap');
+#saba111 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  color: #bb2b2b;
+  
+}
+body {
+   background-color: #cff1fd;
+
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+ 
+}
+.img-box img {
+  width: 500px;
+  height: 320px;
+}
+p {
+text-decoration: dotted;
+font-size: large;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+line-height: 2;
+margin: 20px;
+text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.img-box:hover {
+ cursor: pointer;
+ padding: 20px;
+ margin-top: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 23px;
+  color: #012829;
+
+}
+h1:hover {
+  /* background-color: #9ebec4; */
+  cursor: pointer;
+  color: #1d93b0;
+  padding: 5px;
+  margin-top: auto;
+}
+#saba111:hover {
+  background-color: #12a0a4;
+  cursor: pointer;
+  color: aliceblue;
+  padding: 10px;
+  margin-top: 0;
+  
+}
+.tata111 {
+width: 40%;
+border-collapse: collapse;
+margin: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+
+}
+.tata111 th, td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align:20enter;
+}
+.tata111 th {
+  background-color: #6cd1d5;
+}
+.tata111 td {
+  background-color: #d1e9ef;
+}
+.tata111 td:hover {
+  background-color: #43b6d2;
+  padding: 10px;
+  margin: 0;
+  color: #e90c77;
+
+}
+.tata111 th:hover {
+  background-color: #56cd56;
+  cursor: pointer;
+  color: #3c0bb8;
+}
+h2:hover {
+  cursor: pointer;
+  color: darkcyan;
+  padding: 5px;
+}
+input {
+  width: 400px;
+  height: 20px;
+}
+input:hover {
+  cursor: pointer;
+  color: #16969a;
+  background-color: #bedbe2;
+  margin-top: 10px;
+}
+button:hover {
+  cursor: pointer;
+  color: #e11262;
+  background-color: #f096a6;
+}
+button:active {
+  background-color: #60c5ca;
+}
+
+
